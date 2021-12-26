@@ -1,6 +1,5 @@
 var ars 	= rChoice([
-	'https://www.soalkunci.xyz/',
-	'https://ngeblog.eu.org/',
+	'https://soelay.com/',
 	]);
 
 function rChoice(arr) {
