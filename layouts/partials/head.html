@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+    {{ with .Params.robotsdisallow }}
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    {{ end }}
     <title>{{ .Title }}{{ if ne .Title .Site.Title }} // {{ .Site.Title }}{{ end }}</title>
-
+	
     {{ partial "meta.html" . }}
     {{ partial "og.html" . }}
 
